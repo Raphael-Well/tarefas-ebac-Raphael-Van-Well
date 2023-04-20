@@ -1,0 +1,13 @@
+1 - Definir o horário de despertar 
+2 - Configurar um despertador 
+3 - colocar o despertador próximo ao local onde você dorme.
+4 - Quando o alarme tocar, levantar imediatamente da cama.
+5 - Ir até o banheiro e lavar o rosto com água fria.
+6 - Pegar ingredientes para o café.
+7 - Preparar o café.
+8 - Comer o café.
+9 - Quando terminar o café, levantar da mesa
+10 - Pegar os utensilios.
+11 - Lavar os utensílios.
+12 - Arrumar a cozinha
+13 - Sair e ir para o trabalho.
