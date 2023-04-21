@@ -4,12 +4,14 @@ public class Pessoa {
     private String name;
     private String lastName;
     private int age;
+    private int nascimento;
     private boolean isMarried;
 
-    public Pessoa(String name, String lastName, int age, boolean isMarried) {
+    public Pessoa(String name, String lastName, int age, int nascimento, boolean isMarried) {
         this.name = name;
         this.lastName = lastName;
         this.age = age;
+        this.nascimento = nascimento;
         this.isMarried = isMarried;
     }
 
@@ -37,11 +39,23 @@ public class Pessoa {
         this.age = age;
     }
 
+    public int getNascimento() {
+        return nascimento;
+    }
+
+    public void setNascimento(int nascimento) {
+        this.nascimento = nascimento;
+    }
+
     public boolean isMarried() {
         return isMarried;
     }
 
     public void setMarried(boolean married) {
         isMarried = married;
+    }
+
+    public void felicitacaoAniversario(){
+        System.out.println("Feliz Aniversario");
     }
 }
