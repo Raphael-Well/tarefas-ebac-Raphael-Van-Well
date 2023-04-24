@@ -9,7 +9,7 @@ public class part2 {
         System.out.println("Insira o nome e sexo das pessoas separados por virgula:");
         String input = sc.next();
 
-        String[] nomes = input.split(",");
+        List<String> nomes = new ArrayList<>(Arrays.asList(input.split(",")));
 
         for (String nome : nomes){
             String[] classsificacao = nome.split("-");
