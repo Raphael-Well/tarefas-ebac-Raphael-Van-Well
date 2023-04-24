@@ -12,11 +12,11 @@ public class part2 {
         List<String> nomes = new ArrayList<>(Arrays.asList(input.split(",")));
 
         for (String nome : nomes){
-            String[] classsificacao = nome.split("-");
-            if(classsificacao[1].equalsIgnoreCase("m")){
-                masculino.add(classsificacao[0]);
-            } else if (classsificacao[1].equalsIgnoreCase("f")) {
-                feminino.add(classsificacao[0]);
+            List<String> classsificacao = new ArrayList<>(Arrays.asList(nome.split("-")));
+            if(classsificacao.get(1).equalsIgnoreCase("m")){
+                masculino.add(classsificacao.get(0));
+            } else if (classsificacao.get(1).equalsIgnoreCase("f")) {
+                feminino.add(classsificacao.get(0));
             }
         }
 
